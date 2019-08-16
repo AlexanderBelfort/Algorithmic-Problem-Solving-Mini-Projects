@@ -15,5 +15,3 @@ def run():
         input_manuall = sys.stdin.readline().split()
         input_manuall = [int(n) for n in input_manuall]
         print(int(distance(input_manuall[1:])))
-
-run()
